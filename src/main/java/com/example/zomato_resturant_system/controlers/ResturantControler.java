@@ -25,7 +25,7 @@ public class ResturantControler {
 
     @GetMapping("/{id}")
     public Restaurant getRestaurantById(@PathVariable("id")  Long id) throws NoRestaurantByIdException {
-        System.out.println(id);
+
         return restaurantService.getRestaurantById(id);
     }
 }

@@ -11,9 +11,10 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Restaurant {
+public class Restaurant extends BaseModel{
 
     private Long id;
+    private String name;
     private List<Menu> menu;
     private Location location;
 

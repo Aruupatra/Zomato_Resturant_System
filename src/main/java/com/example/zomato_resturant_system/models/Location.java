@@ -1,6 +1,15 @@
 package com.example.zomato_resturant_system.models;
 
-public class Location {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class Location extends BaseModel{
 
 
     private int pincode;

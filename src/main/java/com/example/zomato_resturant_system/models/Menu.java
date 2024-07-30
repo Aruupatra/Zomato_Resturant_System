@@ -11,7 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 @Setter
 @Getter
-public class Menu {
+public class Menu extends BaseModel {
 
     private List<Dish> dishList;
 }

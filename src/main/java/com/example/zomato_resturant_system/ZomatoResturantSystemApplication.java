@@ -9,10 +9,6 @@ public class ZomatoResturantSystemApplication {
 
     public static void main(String[] args) {
 
-
-
-        RestaurantRepositoriesImpl repositories=new RestaurantRepositoriesImpl();
-        repositories.addRestaurants();
         SpringApplication.run(ZomatoResturantSystemApplication.class, args);
         System.out.println("Hi");
 

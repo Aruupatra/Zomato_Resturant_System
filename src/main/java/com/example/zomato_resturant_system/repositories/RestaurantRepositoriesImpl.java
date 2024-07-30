@@ -11,18 +11,18 @@ public class RestaurantRepositoriesImpl implements IResturantRepositories{
 
      Map<Long,Restaurant> resturants=new HashMap<>();
 
-     public void addRestaurants()
-     {
-         System.out.println("Adding");
-         Restaurant restaurant1=new Restaurant();
-         restaurant1.setId(1L);
-         Menu menu1=new Menu();
-         List<Menu> menus=new ArrayList<>();
-         menus.add(menu1);
-         restaurant1.setMenu(menus);
-         resturants.put(1L,restaurant1);
-
-     }
+//     public void addRestaurants()
+//     {
+//         System.out.println("Adding");
+//         Restaurant restaurant1=new Restaurant();
+//         restaurant1.setId(1L);
+//         Menu menu1=new Menu();
+//         List<Menu> menus=new ArrayList<>();
+//         menus.add(menu1);
+//         restaurant1.setMenu(menus);
+//         resturants.put(1L,restaurant1);
+//
+//     }
 
     @Override
     public Optional<List<Restaurant>> getAllRestaurants() {
